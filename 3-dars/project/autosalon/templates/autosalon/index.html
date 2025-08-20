@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mashina brandlari</title>
+</head>
+<body>
+
+<h1>Mashina brandlari</h1>
+
+<ul>
+    {% for cars in car %}
+    <li>{{ cars.title }}</li>
+    <li>Matni: {{cars.description}}</li>
+    {% endfor %}
+
+</ul>
+
+</body>
+</html>
